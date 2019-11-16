@@ -1,0 +1,46 @@
+languageCode = "th-TH"
+title = "シズ妹ｓ (SiSiMOUTOs) 's Site"
+baseurl = "https://sisimouto.github.io/"
+theme = "ghostwriter"
+canonifyurls = true
+author = "シズ妹ｓ"
+copyright = "シズ妹ｓ"
+
+[Author]
+    name = "シズ妹ｓ"
+    profile = "https://twitter.com/sisimouto"
+
+[Taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[Params]
+  intro = true
+  description = "たとえ永遠の無い世界でも"
+  opengraph = true
+  #gitlab = "https://gitlab.com/sisimouto"  
+  twitter = "https://twitter.com/sisimouto"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "/project/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 4
